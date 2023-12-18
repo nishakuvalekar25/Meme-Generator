@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    /* background: linear-gradient(45deg, #010758, #490d61); */
+    /* background: rgb(107,9,121); */
+    /* background: rgb(170,42,83);
+background: linear-gradient(342deg, rgba(170,42,83,0.9607492655265231) 42%, rgba(181, 45, 45, 0.788) 81%);
+     */
+     /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
+    
+     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+
+     /* background-image: linear-gradient(to right, #ed6ea0 0%, #ec8c69 100%); */
+     
+     
+}
+.container h1{
+    color: #492868;
+    padding: 20px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.container{
+    width:80%;
+    max-width: 37.5em;
+    padding: 3em 1.5em;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+    box-shadow: 0 1.4em 3em rgba(64, 64, 66, 0.3);
+    align-items: center;
+}
+
+.container img{
+    display: block;
+    height: 25em;
+    max-width: 80%;
+    margin: 0 auto 1em auto;
+
+}
+
+.container h3{
+    font-size: 1em;
+    margin: 20px;
+    margin-left: 80px;
+    width: 70%;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    color: #737081;
+    letter-spacing: 0.03em;
+
+    
+}
+
+.container button {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+    padding: 0.8em 2em;
+    border-radius: 2em;
+    background-color: #492868;
+transition: all 0.2s ease;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .container button:hover{
+    background-color: #58337def;
+    
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 600px) {
+    .container {
+      font-size: 14px;
+    }
+  }
